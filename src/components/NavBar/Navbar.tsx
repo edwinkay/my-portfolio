@@ -48,9 +48,9 @@ function Navbar() {
           <li>
             <Link
               className={`nav-link ${
-                location.pathname === "/" ? "active" : ""
+                location.pathname === "/my-portfolio" ? "active" : ""
               }`}
-              to="/"
+              to="/my-portfolio"
             >
               Profile
             </Link>
@@ -69,7 +69,7 @@ function Navbar() {
             <Link
               className={`nav-link ${
                 location.pathname === "/React" ? "active" : ""
-              }`} 
+              }`}
               to="/React"
             >
               React

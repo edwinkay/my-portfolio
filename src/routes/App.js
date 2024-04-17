@@ -18,6 +18,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Main />} />
+            <Route path="/my-portfolio" element={<Main />} />
             <Route path="/Javascript" element={<Javascript />} />
             <Route path="/Angular" element={<Angular />} />
             <Route path="/React" element={<ReactApp />} />

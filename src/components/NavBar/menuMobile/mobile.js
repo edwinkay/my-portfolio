@@ -11,7 +11,7 @@ function Mobile({ closeMenu }) {
     <div className="cajaM">
       <ul>
         <li>
-          <Link className="nav-linkM" onClick={handleClick} to="/">
+          <Link className="nav-linkM" onClick={handleClick} to="/my-portfolio">
             Profile
           </Link>
         </li>
