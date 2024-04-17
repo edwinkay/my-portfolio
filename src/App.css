@@ -1,5 +1,30 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+
 .App {
   text-align: center;
+}
+.box {
+  height: 100%;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+  outline: solid #3a62d3;
+}
+@media print {
+  .midc {
+    position: relative;
+    bottom: 176px;
+  }
+  .header-top {
+    visibility: hidden;
+  }
+  .caja {
+    visibility: hidden;
+  }
+  .box {
+    outline: none;
+  }
 }
 
 .App-logo {

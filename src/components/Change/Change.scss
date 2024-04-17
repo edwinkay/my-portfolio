@@ -1,0 +1,87 @@
+.Change{
+    background-color: rgb(255, 255, 255);
+	color: black;
+	padding: 22px;
+	.caja, .cajaM{
+		background-color: #3a62d3;
+		
+	}
+	.nav-link, .nav-linkM{
+		background-color: #3a62d3;
+		color: rgb(255, 255, 255);
+	}
+	.modoDark{
+	display: none;
+	
+}
+.modoNormal{
+	display: block;
+}
+.subtitle{
+    color: rgb(0, 0, 0);
+}
+.paragraph{
+    color: black;
+}
+}
+	
+
+.Dark{
+	background-color: black;
+	color: rgb(255, 255, 255);
+	.caja, .cajaM{
+		background-color: black;
+	}
+	
+	.nav-link, .nav-linkM{
+		background-color: black;
+		color: white;
+	}
+	.icon-git{
+		color: white;
+	}
+	.icon-git:hover{
+		color: #3a62d3;
+	}
+	.modoDark{
+	display: block;
+	color: white;
+}
+.modoNormal{
+	display: none;
+}
+.subtitle{
+    color: rgb(255, 255, 255);
+}
+.paragraph{
+    color: rgb(255, 255, 255);
+}
+
+}
+
+
+.header-top {
+	width:  200px;
+	height: 30px;
+	padding: 8px;
+	position: relative;
+	left: 8px;
+	
+}
+.modoNormal{
+	position: relative;
+	left: 70px;
+	bottom: 44px;
+}
+.modoDark{
+	position: relative;
+	left: 70px;
+	bottom: 44px;
+	
+}
+@media (max-width: 640px){
+	.header-top{
+		position: relative;
+		left: -2px;
+	}
+}
